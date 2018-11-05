@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="www.CourseList.com"
+            xmlns="www.CourseList.com"
+            xmlns:course="www.Course.com"
+            elementFormDefault="qualified"
+
+>
+    <xsd:import namespace="www.Course.com" schemaLocation="Course.xsd"/>
+    <xsd:element name="CourseList">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="course:Course" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
