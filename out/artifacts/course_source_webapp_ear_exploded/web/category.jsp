@@ -12,6 +12,5 @@
 </head>
 <body>
 <h1>Category LIst</h1>
-
 </body>
 </html>

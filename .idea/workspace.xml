@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="course-source-webapp:ear exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8ace2b78-3f4a-45ca-ae3d-85b87fb85a3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAX_RS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/CourseResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/UtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test/testXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/xsd/CourseList.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constant/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/QueryIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xsl/search.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/course_source_webapp_ear_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/course_source_webapp_ear_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/course_source_webapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/course_source_webapp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/dao/CourseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/dao/CourseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/resources/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/resources/CourseResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/test/UtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/WEB-INF/classes/test/UtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/course_source_webapp_ear_exploded/web/html/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/constant/UrlConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/dao/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/dao/CourseDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/dao/IGenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/CategoryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/CategoryMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/CourseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/CourseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/DomainEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/UserCourseInterestEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/UserEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/UserProviderFollowEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/entity/UserSubjectFollowEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/resources/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/resources/CourseResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/CategoryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/CourseDetailServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/ErrorHandlerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/ProviderListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/servlet/SearchServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/test/UtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/util/DBUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/classes/util/XmlUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/category.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/courseDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/html/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/provider.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/searchResult.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/test/testXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/xsd/Category.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/xsd/Course.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded/xsd/CourseList.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/course-source-webapp/dao/CourseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/course-source-webapp/dao/CourseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/course-source-webapp/resources/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/course-source-webapp/resources/CourseResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/course-source-webapp/test/UtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/course-source-webapp/test/UtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/CourseResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/CourseResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/UtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,66 +115,77 @@
     <session id="-1896166942">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="CourseSourcePersistenceUnit" value="225" />
+          <entry key="CourseSourcePersistenceUnit" value="428" />
           <entry key="dummy" value="4" />
-          <entry key="html" value="156" />
-          <entry key="java" value="3941" />
-          <entry key="jsp" value="810" />
+          <entry key="html" value="5126" />
+          <entry key="java" value="8394" />
+          <entry key="js" value="82" />
+          <entry key="jsp" value="875" />
           <entry key="sql" value="39" />
           <entry key="txt" value="20" />
           <entry key="xml" value="303" />
           <entry key="xsd" value="309" />
+          <entry key="xsl" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="156" />
-          <entry key="Hibernate QL" value="225" />
-          <entry key="JAVA" value="3939" />
-          <entry key="JPA QL" value="2" />
-          <entry key="JSP" value="810" />
+          <entry key="HTML" value="5126" />
+          <entry key="Hibernate QL" value="428" />
+          <entry key="JAVA" value="8384" />
+          <entry key="JPA QL" value="7" />
+          <entry key="JSP" value="875" />
+          <entry key="JavaScript" value="82" />
           <entry key="PLAIN_TEXT" value="24" />
+          <entry key="RegExp" value="3" />
           <entry key="Scratch" value="39" />
-          <entry key="XML" value="612" />
+          <entry key="XML" value="824" />
+          <entry key="XPath" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="category" value="1" />
           <entry key="class" value="14" />
-          <entry key="html" value="3" />
+          <entry key="html" value="6" />
           <entry key="http" value="1" />
-          <entry key="java" value="57" />
-          <entry key="jsp" value="9" />
+          <entry key="java" value="77" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="15" />
           <entry key="sql" value="1" />
+          <entry key="ts" value="2" />
           <entry key="txt" value="2" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="18" />
-          <entry key="xsd" value="10" />
+          <entry key="xml" value="20" />
+          <entry key="xsd" value="11" />
+          <entry key="xsl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="14" />
           <entry key="Database Element" value="1" />
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="6" />
           <entry key="HTTP Request" value="1" />
-          <entry key="JAVA" value="57" />
-          <entry key="JSP" value="9" />
+          <entry key="JAVA" value="77" />
+          <entry key="JSP" value="15" />
+          <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="1" />
+          <entry key="TypeScript" value="2" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -128,14 +199,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/ApplicationConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/CourseResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/other/QueryIntegerList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constant/AppConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/CourseDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/CategoryDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/html/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -164,9 +298,19 @@
       <find>htmlstring</find>
       <find>&amp;gt;</find>
       <find>application</find>
+      <find>CourseDAO</find>
+      <find>exception</find>
+      <find>named</find>
+      <find>jpqlqu</find>
+      <find>h2</find>
+      <find>INteger(</find>
+      <find>parseint</find>
+      <find>domainId</find>
     </findStrings>
     <replaceStrings>
       <replace>&gt;</replace>
+      <replace>p</replace>
+      <replace>categoryId</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -188,11 +332,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/META-INF/application.xml" />
-        <option value="$PROJECT_DIR$/src/controller/ProcessServlet.java" />
-        <option value="$PROJECT_DIR$/src/controller/aaa.http" />
         <option value="$PROJECT_DIR$/src/servlet/ServletHome.java" />
-        <option value="$PROJECT_DIR$/web/home.jsp" />
         <option value="$PROJECT_DIR$/web/search.jsp" />
         <option value="$PROJECT_DIR$/web/categoryList.jsp" />
         <option value="$PROJECT_DIR$/web/a.jsp" />
@@ -213,21 +353,36 @@
         <option value="$PROJECT_DIR$/src/servlet/CourseDetailServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bc843979-f01d-4f79-a904-43161f6241d3/console.sql" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/entity/CourseEntity.java" />
-        <option value="$PROJECT_DIR$/src/dao/CourseDAO.java" />
         <option value="$PROJECT_DIR$/web/xsd/Course.xsd" />
         <option value="$PROJECT_DIR$/src/util/XmlUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/UtilsTest.java" />
         <option value="$PROJECT_DIR$/web/test/testXML.xml" />
         <option value="$PROJECT_DIR$/web/xsd/CourseList.xsd" />
         <option value="$PROJECT_DIR$/src/entity/CourseList.java" />
         <option value="$PROJECT_DIR$/src/servlet/SearchServlet.java" />
-        <option value="$PROJECT_DIR$/web/html/search.html" />
         <option value="$PROJECT_DIR$/src/service/CourseResource.java" />
         <option value="$PROJECT_DIR$/src/resources/Hihi.java" />
         <option value="$PROJECT_DIR$/src/resources/CourseResource.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/resources/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/api/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/resource/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/constant/Constants.java" />
+        <option value="$PROJECT_DIR$/src/entity/CourseEntity.java" />
+        <option value="$PROJECT_DIR$/src/entity/metamodel/_CourseEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/UtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/dao/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/web/home.jsp" />
+        <option value="$PROJECT_DIR$/web/category.jsp" />
+        <option value="$PROJECT_DIR$/web/xsl/searh.xsl" />
+        <option value="$PROJECT_DIR$/src/other/QueryIntegerList.java" />
+        <option value="$PROJECT_DIR$/src/dao/CourseDAO.java" />
+        <option value="$PROJECT_DIR$/src/util/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/resource/CourseResource.java" />
+        <option value="$PROJECT_DIR$/src/constant/AppConstants.java" />
+        <option value="$PROJECT_DIR$/web/js/utils.js" />
+        <option value="$PROJECT_DIR$/web/xsl/search.xsl" />
+        <option value="$PROJECT_DIR$/web/js/test.js" />
+        <option value="$PROJECT_DIR$/web/html/search.html" />
       </list>
     </option>
   </component>
@@ -239,10 +394,10 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="true" />
-    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
     <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="CUSTOM_FILTER" value="" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="33" />
@@ -404,7 +559,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,24 +580,48 @@
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
@@ -459,6 +637,12 @@
             </path>
             <path>
               <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course-source-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="xsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course-source-webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -470,6 +654,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -483,18 +668,21 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541425748157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541521142519" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.39791667" />
+    <property name="project.structure.side.proportion" value="0.44525546" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="entity" />
     </key>
@@ -524,6 +712,8 @@
       </method>
     </configuration>
     <configuration name="TomEE 9.0.12" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 9.0.121" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="course-source-webapp:ear exploded">
           <settings>
@@ -587,7 +777,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method v="2" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="course-source-webapp:ear exploded" />
+        </option>
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Test Utils" />
@@ -607,12 +801,13 @@
       <workItem from="1540979443549" duration="5121000" />
       <workItem from="1541087045080" duration="3347000" />
       <workItem from="1541295811335" duration="12212000" />
-      <workItem from="1541340284193" duration="11679000" />
+      <workItem from="1541340284193" duration="16818000" />
+      <workItem from="1541431552853" duration="22189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32359000" />
+    <option name="totallyTimeSpent" value="59687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,27 +822,27 @@
     <frame x="0" y="33" width="1440" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7032258" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74801064" visible="true" weight="0.23748212" />
       <window_info id="Structure" order="1" sideWeight="0.24557522" side_tool="true" weight="0.24964234" />
-      <window_info id="Persistence" order="2" sideWeight="0.24776785" side_tool="true" weight="0.2074392" />
+      <window_info id="Persistence" order="2" sideWeight="0.2519894" side_tool="true" visible="true" weight="0.23748212" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.31099194" side_tool="true" weight="0.24964234" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info id="JavaEE:App" order="9" sideWeight="0.24776785" side_tool="true" weight="0.2074392" />
-      <window_info id="Web" order="10" sideWeight="0.29677418" side_tool="true" visible="true" weight="0.23462088" />
+      <window_info id="JavaEE:App" order="9" sideWeight="0.25" side_tool="true" weight="0.23748212" />
+      <window_info id="Web" order="10" sideWeight="0.24778761" side_tool="true" weight="0.23462088" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937685" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.77002966" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.44065282" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.8679525" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937685" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32937685" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937685" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.55192876" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.8679525" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32937685" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32937685" />
       <window_info anchor="bottom" id="Database Changes" order="12" sideWeight="0.49928468" weight="0.32937685" />
@@ -655,7 +850,7 @@
       <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49928468" weight="0.32937685" />
       <window_info anchor="bottom" id="Hibernate Console" order="15" weight="0.32937685" />
       <window_info anchor="bottom" id="Problems" order="16" sideWeight="0.4985694" weight="0.32937685" />
-      <window_info anchor="bottom" id="JPA Console" order="17" sideWeight="0.49713877" weight="0.56083083" />
+      <window_info anchor="bottom" id="JPA Console" order="17" sideWeight="0.49713877" weight="0.55341244" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -676,87 +871,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entity/UserSubjectFollowEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/UserProviderFollowEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://bc843979-f01d-4f79-a904-43161f6241d3/schema/course_source/table/category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/about.html" />
-    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/readme.html" />
-    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/readme.txt" />
-    <entry file="jar://$USER_HOME$/Downloads/Setups/jar dependencies/hibernate-release-5.3.7.Final/lib/required/hibernate-core-5.3.7.Final.jar!/org/hibernate/cfg/annotations/EntityBinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="865" selection-start-line="865" selection-end-line="865" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/Setups/jar dependencies/hibernate-release-5.3.7.Final/lib/required/javax.persistence-api-2.2.jar!/javax/persistence/Persistence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/CourseDetailServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/DomainEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/CategoryMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/UserCourseInterestEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc843979-f01d-4f79-a904-43161f6241d3/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1191" selection-start-line="1191" selection-end-line="1191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/Setups/jar dependencies/hibernate-release-5.3.7.Final/lib/required/javax.persistence-api-2.2.jar!/javax/persistence/TypedQuery.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -795,23 +909,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/CourseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Category.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/CourseType.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Category.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Category.xsd" />
     <entry file="file://$PROJECT_DIR$/web/xsd/Category.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -819,54 +919,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/CourseList.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/CourseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="91" column="24" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/XmlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test/testXML.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7725">
-          <caret line="515" column="9" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="9" />
-          <folding>
-            <element signature="e#175051#175056#0" expanded="true" />
-            <element signature="e#235280#235285#0" expanded="true" />
-            <element signature="e#247398#247403#0" expanded="true" />
-            <element signature="e#327139#327144#0" expanded="true" />
-            <element signature="e#350894#350899#0" expanded="true" />
-            <element signature="e#350908#350913#0" expanded="true" />
-            <element signature="e#400763#400768#0" expanded="true" />
-            <element signature="e#421936#421941#0" expanded="true" />
-            <element signature="e#431159#431164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/CourseList.xsd" />
+    <entry file="file://$PROJECT_DIR$/src/entity/jaxBOnly/Course.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/CourseList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -874,40 +928,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/CourseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/SearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Hihi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Hihi.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/CategoryEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -915,9 +936,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/a.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/a.java" />
     <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -925,13 +944,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/ab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/ab.java" />
     <entry file="jar://$USER_HOME$/Downloads/Setups/jar dependencies/jaxrs-ri/lib/jersey-container-servlet-core.jar!/org/glassfish/jersey/servlet/ServletContainer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-647">
@@ -960,42 +973,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/CourseResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/CategoryServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/UtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/xsd/Course.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/category.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/xsd/CourseList.xsd">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,13 +1001,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/ApplicationConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/resource/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/metamodel/_CourseEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/CourseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/UtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/courseDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="10629" column="47" lean-forward="true" selection-start-line="10629" selection-start-column="47" selection-end-line="10629" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xsd/Course.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/CourseDetailServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/SearchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="865" column="19" selection-start-line="865" selection-start-column="11" selection-end-line="865" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/XmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constant/UrlConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constant/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test/testXML.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2148">
+          <caret line="515" column="9" selection-start-line="515" selection-start-column="6" selection-end-line="515" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/QueryIntegerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/CourseResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/xsl/search.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="128" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1035,17 +1200,17 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="library" />
+              <type id="jpa-descriptors" />
               <type id="javaee-facet-resources" />
               <type id="artifact" />
-              <type id="jpa-descriptors" />
-              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>course-source-webapp:ear exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.104275286" />
+                <option value="0.2125" />
                 <option value="0.5" />
               </list>
             </option>

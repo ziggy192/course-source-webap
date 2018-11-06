@@ -3,18 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <title>Search</title>
+    <script type="text/javascript" src="../js/test.js"></script>
+    <script type="text/javascript" src="../js/utils.js"></script>
+
+    <script type="text/javascript">
+
+        function render(xmlHttp, xslHttp) {
+            if (xmlHttp
+                && xmlHttp.readyState == 4
+                && xmlHttp.status == 200
+                && xslHttp
+                && xslHttp.readyState == 4
+                && xslHttp.status == 200) {
+                var xmlDoc = xmlHttp.responseXML;
+                var xslDoc = xslHttp.responseXML;
+
+                xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xslDoc);
+
+                //used to add to html document
+                var resultDocument = xsltProcessor.transformToFragment(xmlDoc, document);
+                console.log(resultDocument);
+                document.getElementById("xmlResult").appendChild(resultDocument);
+
+            }
+
+        }
+
+        function onBodyLoad() {
+
+            var xsdHttp;
+            var xmlHttp;
+
+            loadXml("http://localhost:8080/course-source-webappWeb/resources/course?sort=name-up&query=huong&categoryId=5"
+                , function (xmlHttpObject) {
+                    xmlHttp = xmlHttpObject;
+
+                    render(xmlHttp, xsdHttp);
+                });
+            loadXml("http://localhost:8080/course-source-webappWeb/xsl/search.xsl"
+                , function (xmlHttpObject) {
+                    xsdHttp = xmlHttpObject;
+                    render(xmlHttp, xsdHttp);
+                })
+
+
+            function loadXml(url, handlerWhenSucess) {
+                var xmlHttp = getXmlHttpObject();
+                xmlHttp.open("GET", url, true);
+                // xmlHttp.responseType = 'document';
+                xmlHttp.onreadystatechange = function () {
+                    if (xmlHttp.readyState == 4) {
+                        if (xmlHttp.status == 200) {
+
+                            console.log('url=' + url + '\n response=' + xmlHttp.response);
+                            console.log('url=' + url + '\n responsexml=' + xmlHttp.responseXML);
+                            console.log('url=' + url + '\n resonseXMLCount=' + xmlHttp.responseXML.documentElement.childElementCount)
+                            handlerWhenSucess(xmlHttp);
+
+                        }
+                        else {
+                            console.error("Error on loadXml() | url=" + url + " | status=" + xmlHttp.statusText);
+                        }
+                    }
+                }
+                xmlHttp.send(null);
+
+
+            }
+
+            function getXmlHttpObject() {
+                var xmlHttp = null;
+                if (window.XMLHttpRequest) {
+                    //for modern browser
+                    xmlHttp = new XMLHttpRequest();
+                } else {
+                    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                return xmlHttp;
+            }
+        }
+
+        function sendRequest() {
+            var query = document.getElementById("query").value;
+            var sort = document.getElementById("sort").value;
+
+            var categoryIdList = [];
+            document.getElementsByName("categoryId").forEach(function (categoryElement, key) {
+                if (categoryElement.checked) {
+                    categoryIdList.push(categoryElement.value);
+                }
+
+            });
+            var domainIdList = [];
+            document.getElementsByName("domainId").forEach(function (domainElement, key) {
+                if (domainElement.checked) {
+                    domainIdList.push(domainElement.value);
+                }
+            });
+
+            var paramMap = new Map();
+            paramMap.set("query", query);
+            paramMap.set("sort", sort);
+            paramMap.set("categoryId", categoryIdList);
+            paramMap.set("domainId", domainIdList);
+            alert(buildUrl("http://localhost:8080/course-source-webappWeb/resources/course", paramMap));
+            // console.log("sendRequest|url="+buildUrl())
+        }
+
+        var f = new FormData();
+
+
+
+
+        var currentPage = 1;
+        function loadMore() {
+
+            currentPage++;
+
+        }
+
+    </script>
 </head>
-<body>
+<body onload="onBodyLoad()">
 <h1>Search Engine</h1>
-<form method="post" action="/search">
-    <input type="text" name="query" value=""/>
-    <br/>
-    <input type="submit" value="Search">
+<input type="text" name="query" value="" id="query"/>
+<br/>
+<input type="button" value="Search" onclick="sendRequest()">
+<br/>
 
-</form>
+<div class="check-box-div">
 
-<div id="searchResult">
+    <input type="checkbox" name="categoryId" value="1"> Category 1 <br/>
+    <input type="checkbox" name="categoryId" value="2"> Category 2 <br/>
+    <input type="checkbox" name="categoryId" value="3"> Category 3 <br/>
+    <input type="checkbox" name="categoryId" value="4"> Category 4 <br/>
+    <input type="checkbox" name="categoryId" value="5"> Category 5 <br/>
+</div>
+
+<div class="check-box-div">
+
+    <input type="checkbox" name="domainId" value="3"> Domain 3 <br/>
+    <input type="checkbox" name="domainId" value="4"> Domain 4 <br/>
 
 </div>
+
+
+<select name="sort" id="sort">
+    <option value="rating-up">Rating up</option>
+    <option value="rating-down">rating down</option>
+    <option value="name-up">name up</option>
+    <option value="name-down">name down</option>
+    <option value="cost-up">cost up</option>
+    <option value="cost-down">cost down</option>
+
+</select>
+
+<div id="xmlResult"></div>
 </body>
 </html>
