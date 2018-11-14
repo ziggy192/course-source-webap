@@ -1,26 +1,9 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+                xmlns="http://www.w3.org/1999/xhtml">
+    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
     <xsl:template match="/">
 
         <xsl:for-each select="//*[local-name()='Course']">
-            <tr>
-                <td class="col1">
-                    <div class="course_name">
-                        <a href="https://edumall.vn/course/nghe-thuat-ban-hang-dinh-cao-voi-google-adwords-gia-toc">KỸ
-                            THUẬT CHỈNH DÂY ĐÀN PIANO CƠ BẢN </a></div>
-                    <div class="course_small_detail">
-                        <img class="img_author_small"
-                             src="//d1nzpkv5wwh1xf.cloudfront.net/320/k-5a3b209dce4b1465e6c2cf73/20180626-/vu-hoang-hiep-1.jpg"/>
-                        <span class="author_name">  Vũ Hoàng Hiệp </span>
-
-                    </div>
-
-
-                </td>
-
-                <td class="col2">799000</td>
-                <td class="col3">0</td>
-            </tr>
             <tr>
                 <td class="col1">
                     <div class="course_name">
