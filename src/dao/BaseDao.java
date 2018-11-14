@@ -4,7 +4,6 @@ import util.DBUtils;
 
 import javax.persistence.EntityManager;
 import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
 import java.util.List;
 
 public class BaseDao<T,PK> implements IGenericDAO<T,PK> {

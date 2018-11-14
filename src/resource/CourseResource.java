@@ -3,12 +3,11 @@ package resource;
 import com.sun.istack.internal.logging.Logger;
 import dao.CourseDAO;
 import entity.CourseEntity;
-import other.QueryIntegerList;
+
 import util.StringUtils;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.ArrayList;
 import java.util.List;
 
 @Path("/course")
@@ -36,7 +35,6 @@ public class CourseResource {
 		//throw NumberFormatException with errorcode=500
 		return CourseDAO.getInstance().searchCourse(query, domainIdList, categoryIdList, sort, page);
 //		try {
-//			logger.info("continue logging fucking shit");
 //			categoryIdList.size();
 //			logger.info("categoryListsize="+categoryIdList.size());
 //		} catch (Exception e) {

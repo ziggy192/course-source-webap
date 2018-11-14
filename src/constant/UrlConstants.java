@@ -10,5 +10,4 @@ public class UrlConstants {
 
 	/*-------Error--------*/
 
-	public static final String ERROR_JSP = "error.jsp";
 }

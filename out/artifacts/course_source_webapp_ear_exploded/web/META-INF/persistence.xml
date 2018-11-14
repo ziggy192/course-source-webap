@@ -3,7 +3,7 @@
 
   <persistence-unit name="CourseSourcePersistenceUnit">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-    <class>entity.CategoryEntity</class>
+    <class>entity.CourseEntity</class>
     <class>entity.CourseEntity</class>
     <class>entity.DomainEntity</class>
     <class>entity.UserEntity</class>

@@ -8,10 +8,6 @@ import util.DBUtils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -33,6 +29,16 @@ public class CourseDAO extends BaseDao<CourseEntity, Integer> {
 			}
 		}
 		return instance;
+	}
+
+	public CourseEntity getFirstCourse() {
+		EntityManager entityManager = DBUtils.getEntityManager();
+		CourseEntity singleResult = (CourseEntity) entityManager.createNamedQuery("CourseEntity.findAllCourse")
+				.setMaxResults(1)
+				.getSingleResult();
+
+		return singleResult;
+
 	}
 
 	public List<CourseEntity> searchCourse(String query) {

@@ -1,6 +1,11 @@
 package dao;
 
 import entity.CategoryEntity;
+import util.DBUtils;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import java.util.List;
 
 public class CategoryDAO extends BaseDao<CategoryEntity, Integer> {
 	private static CategoryDAO instance;
@@ -13,6 +18,16 @@ public class CategoryDAO extends BaseDao<CategoryEntity, Integer> {
 			}
 		}
 		return instance;
+	}
+
+
+	public List<CategoryEntity> getCategoryList() {
+		EntityManager entityManager = DBUtils.getEntityManager();
+		Query namedQuery = entityManager.createNamedQuery("CategoryEntity.getCategoryList");
+
+		return namedQuery.getResultList();
+
+
 	}
 
 }

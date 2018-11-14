@@ -3,7 +3,7 @@ package constant;
 public class AppConstants {
 
 	/*=======pagination=======*/
-	public static final int PAGE_SIZE = 50;
+	public static final int PAGE_SIZE = 20;
 
 
 	/*==========Query Params For Sorting===========*/

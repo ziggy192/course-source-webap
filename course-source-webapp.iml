@@ -37,33 +37,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="HIbernateFiles">
-        <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/Setups/jar dependencies/hibernate-release-5.3.7.Final/lib/required" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/Downloads/Setups/jar dependencies/hibernate-release-5.3.7.Final/lib/required" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Setups/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/Setups/jar dependencies/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="HIbernateFiles" level="application" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.13" level="application" />
     <orderEntry type="library" name="taglibs-standard-impl-1.2.5" level="application" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="hibernate-jpa-2.1-api-1.0.0.Final-javadoc" level="application" />
     <orderEntry type="library" name="jersey" level="application" />
     <orderEntry type="library" name="javax.ws.rs-api-2.1" level="application" />
     <orderEntry type="library" name="JAX-RS" level="project" />
-    <orderEntry type="library" name="JAX-RS" level="project" />
-    <orderEntry type="library" name="JAX-RS" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="TomEE 9.0.12" level="application_server_libraries" />
   </component>
 </module>

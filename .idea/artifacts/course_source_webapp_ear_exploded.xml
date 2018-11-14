@@ -35,6 +35,7 @@
         <element id="library" level="application" name="javax.ws.rs-api-2.1" />
         <element id="file-copy" path="$USER_HOME$/Downloads/Setups/jar dependencies/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar" />
         <element id="library" level="application" name="taglibs-standard-impl-1.2.5" />
+        <element id="library" level="application" name="HIbernateFiles" />
       </element>
       <element id="directory" name="META-INF" />
       <element id="jpa-descriptors" facet="course-source-webapp/jpa/JPA" />

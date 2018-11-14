@@ -2,32 +2,29 @@
   <artifact type="exploded-war" build-on-make="true" name="course-source-webapp:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/course_source_webapp_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="course-source-webapp/javaeeApplication/javaEEApplication" />
-      <element id="directory" name="web">
-        <element id="dir-copy" path="$PROJECT_DIR$/web" />
-        <element id="directory" name="WEB-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/web.xml" output-file-name="web.xml" />
-          <element id="directory" name="classes">
-            <element id="module-output" name="course-source-webapp" />
-            <element id="jpa-descriptors" facet="course-source-webapp/jpa/JPA" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="library" level="application" name="hibernate-jpa-2.1-api-1.0.0.Final-javadoc" />
-            <element id="library" level="module" name="HIbernateFiles" module-name="course-source-webapp" />
-            <element id="library" level="project" name="Java EE 6-Java EE 6" />
-            <element id="library" level="application" name="javax.ws.rs-api-2.1" />
-            <element id="library" level="application" name="jersey" />
-            <element id="file-copy" path="$USER_HOME$/Downloads/Setups/jar dependencies/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar" />
-            <element id="library" level="application" name="taglibs-standard-impl-1.2.5" />
-          </element>
-        </element>
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/META-INF/application.xml" />
-        </element>
-      </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/persistence.xml" output-file-name="persistence.xml" />
       </element>
+      <element id="javaee-facet-resources" facet="course-source-webapp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="course-source-webapp" />
+          <element id="jpa-descriptors" facet="course-source-webapp/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="hibernate-jpa-2.1-api-1.0.0.Final-javadoc" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="application" name="javax.ws.rs-api-2.1" />
+          <element id="library" level="application" name="jersey" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/Setups/jar dependencies/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar" />
+          <element id="library" level="application" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="application" name="HIbernateFiles" />
+          <element id="library" level="project" name="JAX-RS" />
+        </element>
+        <element id="directory" name="META-INF" />
+      </element>
+      <element id="javaee-facet-resources" facet="course-source-webapp/javaeeApplication/javaEEApplication" />
+      <element id="artifact" artifact-name="course-source-webapp:ear exploded" />
     </root>
   </artifact>
 </component>

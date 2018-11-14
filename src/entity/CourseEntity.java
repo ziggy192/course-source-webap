@@ -73,6 +73,9 @@ import java.util.Objects;
 @NamedQueries({
 		@NamedQuery(name = "CourseEntity.findCourseByHashing",query = "select c from CourseEntity c where c.hash = :hash")
 		,@NamedQuery(name = "CourseEntity.findCourseByNameQuery", query = "SELECT c FROM CourseEntity c where c.name like concat('%',:query,'%')")
+		,@NamedQuery(name = "CourseEntity.findCourseById",query = "select c from CourseEntity  c where c.id = :courseId")
+		, @NamedQuery(name = "CourseEntity.findAllCourse", query = "select c from CourseEntity  c ")
+
 }
 )
 public class CourseEntity {
@@ -329,10 +332,6 @@ public class CourseEntity {
 				Objects.equals(sourceUrl, that.sourceUrl) ;
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(id, name, author, authorDescription, domainId, categoryId, overviewDescription, authorImageUrl, rating, ratingNumber, cost, duration, syllabus, previewVideoUrl, imageUrl, sourceUrl);
-	}
 
 	@Override
 	public String toString() {
@@ -355,6 +354,7 @@ public class CourseEntity {
 				", sourceUrl='" + sourceUrl + '\'' +
 				'}';
 	}
+
 
 
 }

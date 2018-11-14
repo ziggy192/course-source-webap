@@ -2,7 +2,7 @@ function buildUrl(baseUrl, paramMap) {
     var url = baseUrl + "?";
 
     paramMap.forEach(function (value, key, map) {
-        url += key+"=";
+        url += key + "=";
         if (Array.isArray(value)) {
             var valueArray = value;
             for (var i = 0; i < valueArray.length; i++) {
@@ -25,5 +25,16 @@ function buildUrl(baseUrl, paramMap) {
     return url;
 
 
+}
+
+function getXmlHttpObject() {
+    var xmlHttp = null;
+    if (window.XMLHttpRequest) {
+        //for modern browser
+        xmlHttp = new XMLHttpRequest();
+    } else {
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    return xmlHttp;
 }
 

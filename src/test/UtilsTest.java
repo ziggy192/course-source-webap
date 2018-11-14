@@ -5,11 +5,8 @@ import entity.CourseEntity;
 import entity.CourseList;
 import org.hibernate.annotations.common.util.impl.LoggerFactory;
 import org.jboss.logging.Logger;
-import util.XmlUtils;
 
 import java.io.IOException;
-import java.io.StringWriter;
-import java.util.List;
 
 public class UtilsTest {
 
